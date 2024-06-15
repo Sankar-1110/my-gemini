@@ -8,7 +8,8 @@ margin: 0%;
     width: auto;
     background-color: #f0f4f9;
     position:fixed;
-    padding-right: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
    
 }
 .menuicon{
@@ -101,21 +102,23 @@ margin: 0%;
     width: auto;
      
 }
-.box:hover{background-color:#dde3ea ;
-
+.box:hover{
+    background-color: #cdd9ed;
+}
+.sidetext{
+    width: 226px;
 }
 .box-in{
      height: 100%;
-     width: 50%;
+     width: auto;
      display: flex;
      align-items: center;
      justify-content:start;
-     margin-left:15px;
-     
+     margin-left:15px; 
 }
 .options{
     height: 25%;
-    width: 500px;
+    width: auto;
    position:absolute;
    bottom: 0%;
  
