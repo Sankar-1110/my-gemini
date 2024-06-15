@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+padding: 0%;
+margin: 0%;
+}
+.Sidebar{
+    height: 100vh;
+    width: auto;
+    background-color: #f0f4f9;
+    position:fixed;
+    padding-right: 13px;
+   
+}
+.menuicon{
+    height: 22px;
+}
+.menu{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.menu:hover{
+    background-color: #dde3ea;
+}
+.newchat{
+   font-family: "Open Sans", sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   margin-left: 5px;
+}
+.plus{
+    height: 22px;
+    
+}
+.addchat{
+    height: 40px;
+    max-width: fit-content;
+    border-radius: 40px;
+    background-color: #dde3ea;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 0px 14px;
+}
+.questions{
+    height: 46%;
+    width: 100%;
+    
+}
+.que{
+    height: 40px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    font-family:"Open Sans", sans-serif ;
+    border-radius: 40px;
+    padding-left: 10px;
+    margin-left: 13px;
+    margin-right: 10px;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.que:hover{
+    background-color:#cdd9ed;
+
+}
+.recent{
+    font-family:"Open Sans", sans-serif ;
+    font-weight:600;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 250px;
+}
+.recentque{
+    height: 90%;
+    width: 100%;
+    margin-top: 5px;
+   
+}
+.icons{
+    height: 22px;
+   margin-right: 15px;
+}
+.sidetext{
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.box{
+    height: 45px;
+    width: auto;
+     
+}
+.box:hover{background-color:#dde3ea ;
+
+}
+.box-in{
+     height: 100%;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content:start;
+     margin-left:15px;
+     
+}
+.options{
+    height: 25%;
+    width: 500px;
+   position:absolute;
+   bottom: 0%;
+ 
+}
